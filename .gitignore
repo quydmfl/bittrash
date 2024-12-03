@@ -2,6 +2,13 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+*~*
+*.db
+*.bak
+*.out
+*.prof
+**.envrc
+**/.DS_Store
 *.exe
 *.exe~
 *.dll
@@ -23,3 +30,10 @@ go.work.sum
 
 # env file
 .env
+
+# temp file
+/tmp
+/dist
+/data
+/.vscode
+/coverage.out
